@@ -37,7 +37,7 @@ enemies=[];
 
 for(let i=0;i<6;i++){
 
-let speed=Math.min(2,0.5+level*0.1);
+let speed=Math.min(1.5,0.4+level*0.08);
 
 enemies.push({
 x:Math.random()*(canvas.width-40)+20,
