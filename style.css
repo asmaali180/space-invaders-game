@@ -1,0 +1,33 @@
+body{
+margin:0;
+background: radial-gradient(circle at center,#02021c,#000);
+color:white;
+font-family:"Segoe UI",Arial,sans-serif;
+text-align:center;
+
+height:100vh;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+}
+
+h1{
+margin:10px 0;
+font-size:32px;
+letter-spacing:2px;
+}
+
+.hud{
+display:flex;
+gap:60px;
+margin-bottom:10px;
+font-size:18px;
+}
+
+canvas{
+border:3px solid cyan;
+border-radius:10px;
+box-shadow:0 0 25px cyan;
+background:black;
+}
