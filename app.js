@@ -3,7 +3,6 @@ const ctx = canvas.getContext("2d");
 
 let score = 0;
 let level = 1;
-
 const scoreText = document.getElementById("score");
 const levelText = document.getElementById("level");
 
